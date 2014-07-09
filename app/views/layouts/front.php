@@ -39,7 +39,6 @@
  * @var string $content
  */
 
-echo '<h1>' . $this->pageTitle . '</h1>';
 if ($this->breadcrumbs) {
     echo TbHtml::breadcrumbs($this->getPageBreadcrumbs());
 }
